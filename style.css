@@ -1,0 +1,103 @@
+/* استایل برای فونت‌ها و قالب کلی */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.camera-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+#info {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #888;
+}
+
+.form-container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.red-border {
+    border: 2px solid red;
+}
+
+.blue-border {
+    border: 2px solid blue;
+}
+
+.green-border {
+    border: 2px solid green;
+}
